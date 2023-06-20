@@ -67,12 +67,12 @@ const pirceLabel = document.querySelector("span.price-label");
 priceInput.addEventListener("input", function(){
     
     pirceLabel.innerHTML = `${this.value}00만원`;
-    outImg1.src = `${this.value}a.jpg`;;
-    outImg2.src = `${this.value}b.jpg`;;
-    outImg3.src = `${this.value}c.jpg`;;
-    outImg4.src = `${this.value}d.jpg`;;
-    outImg5.src = `${this.value}e.jpg`;;
-    outImg6.src = `${this.value}f.jpg`;;
+    outImg1.src = `./${this.value}a.jpg`;;
+    outImg2.src = `./${this.value}b.jpg`;;
+    outImg3.src = `./${this.value}c.jpg`;;
+    outImg4.src = `./${this.value}d.jpg`;;
+    outImg5.src = `./${this.value}e.jpg`;;
+    outImg6.src = `./${this.value}f.jpg`;;
 })
 
 document.querySelector('.rangeInput').addEventListener('input',function(event){
